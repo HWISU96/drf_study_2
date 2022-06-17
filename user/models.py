@@ -41,7 +41,7 @@ class UserProfile(models.Model):
     def __str__(self):
         return f"{self.user.username} 님의 프로필입니다."
 
-# user - user detail : 1:1
+    # user - user detail : 1:1
 # 한 유저가 두 프로필을 가질 수는 없음
 
 # 쿼리를 날려서 crud를 한다
